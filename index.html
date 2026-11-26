@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 350px;
+            margin: 80px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Student Registration</h2>
+
+        <form>
+
+            <label>Student Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Roll Number</label>
+            <input type="text" placeholder="Enter roll number" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter email" required>
+
+            <label>Course</label>
+            <select required>
+                <option value="">Select Course</option>
+                <option>B.Tech CSE</option>
+                <option>B.Tech Data Science</option>
+                <option>B.Tech IT</option>
+                <option>BCA</option>
+            </select>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
